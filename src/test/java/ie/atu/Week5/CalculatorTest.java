@@ -18,7 +18,10 @@ class CalculatorTest {
     @Test
     void testAdd(){
         assertEquals(6, num.add(2,4));
-
+    }
+    @Test
+    void testMultiply(){
+        assertEquals(8, num.multiply(2,4));
     }
 
 
