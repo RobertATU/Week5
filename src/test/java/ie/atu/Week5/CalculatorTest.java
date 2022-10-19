@@ -23,6 +23,10 @@ class CalculatorTest {
     void testMultiply(){
         assertEquals(8, num.multiply(2,4));
     }
+    @Test
+    void testSubtract(){
+        assertEquals(2, num.subtract(4,2));
+    }
 
 
     @AfterEach
