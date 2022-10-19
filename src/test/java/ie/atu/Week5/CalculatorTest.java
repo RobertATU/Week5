@@ -27,6 +27,10 @@ class CalculatorTest {
     void testSubtract(){
         assertEquals(2, num.subtract(4,2));
     }
+    @Test
+    void testDivide(){
+        assertEquals(2, num.divide(4,2));
+    }
 
 
     @AfterEach
